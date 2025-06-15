@@ -1,0 +1,184 @@
+{
+  "Header": {
+    "title": "Coffee Lover",
+    "paragraph": "Want to learn React? We've got you. Here are resources you can use."
+  },
+  "About": {
+    "paragraph": "React was created in 2013 by Meta (formerly Facebook). It's a library that people use to build interaces and add interactive functionality to a website using JavaScript. It's used by many famous companies and has become the default front end standard. If you don't know how to use it, now's a great time to learn.",
+    "Why": [
+      "Wide Adoption",
+      "Great Tooling",
+      "Huge Community",
+      "Many Integrations"
+    ],
+    "Why2": [
+      "Virtual DOM",
+      "1-Way Data Flow",
+      "Hooks",
+      "Continuously Improved"
+    ]
+  },
+  "Gallery": [
+    {
+      "title": "Mac App",
+      "largeImage": "img/portfolio/01-large.jpg",
+      "smallImage": "img/portfolio/01-small.jpg"
+    },
+    {
+      "title": "Instagram App",
+      "largeImage": "img/portfolio/02-large.jpg",
+      "smallImage": "img/portfolio/02-small.jpg"
+    },
+    {
+      "title": "Android App",
+      "largeImage": "img/portfolio/03-large.jpg",
+      "smallImage": "img/portfolio/03-small.jpg"
+    },
+    {
+      "title": "Portfolio App",
+      "largeImage": "img/portfolio/04-large.jpg",
+      "smallImage": "img/portfolio/04-small.jpg"
+    },
+    {
+      "title": "Tablet App",
+      "largeImage": "img/portfolio/05-large.jpg",
+      "smallImage": "img/portfolio/05-small.jpg"
+    },
+    {
+      "title": "Mobile App",
+      "largeImage": "img/portfolio/06-large.jpg",
+      "smallImage": "img/portfolio/06-small.jpg"
+    },
+    {
+      "title": "React Native App",
+      "largeImage": "img/portfolio/07-large.jpg",
+      "smallImage": "img/portfolio/07-small.jpg"
+    },
+    {
+      "title": "Browser App",
+      "largeImage": "img/portfolio/08-large.jpg",
+      "smallImage": "img/portfolio/08-small.jpg"
+    },
+    {
+      "title": "Web App",
+      "largeImage": "img/portfolio/09-large.jpg",
+      "smallImage": "img/portfolio/09-small.jpg"
+    }
+  ],
+  "Services": [
+    {
+      "icon": "fa fa-wordpress",
+      "name": "React.dev",
+      "text": "The sleek new docs can be seen at React.dev, our top recommendation."
+    },
+    {
+      "icon": "fa fa-cart-arrow-down",
+      "name": "Legacy Docs",
+      "text": "The legacy react docs are at legacy.react.org. Warning: they aren't updated."
+    },
+    {
+      "icon": "fa fa-cloud-download",
+      "name": "FreeCodeCamp",
+      "text": "FreeCodeCamp, at freecodecamp.org, is a nonprofit with a number of good React tutorials."
+    },
+    {
+      "icon": "fa fa-language",
+      "name": "JavaScriptPage",
+      "text": "JavaScriptPage.com has a number of quality tutorials about React."
+    },
+    {
+      "icon": "fa fa-plane",
+      "name": "w3schools.com",
+      "text": "W3Schools has some great React learning materials."
+    },
+    {
+      "icon": "fa fa-pie-chart",
+      "name": "Mozilla Developer",
+      "text": "Developer.mozilla.org is a gold standard for dev content, and has a React guide."
+    }
+  ],
+  "Testimonials": [
+    {
+      "img": "img/testimonials/04.jpg",
+      "text": "\"React lets you build user interfaces out of individual pieces called components.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/05.jpg",
+      "text": "\"React components receive data and return what should appear on the screen.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/06.jpg",
+      "text": "\"React components are JavaScript functions. Learning React is learning programming.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/02.jpg",
+      "text": "\"If you're interested in playing around with React, you can use an online code playground, such as CodePen.\"",
+      "name": "Johnathan Doe"
+    },
+    {
+      "img": "img/testimonials/01.jpg",
+      "text": "\"You can use as little or as much React as you need.\"",
+      "name": "John Doe"
+    },
+    {
+      "img": "img/testimonials/03.jpg",
+      "text": "\"You can add React to an HTML page in one minute, just to experiment.\"",
+      "name": "John Doe"
+    }
+  ],
+  "Team": [
+    {
+      "img": "img/team/01.jpg",
+      "name": "Dan Abramov",
+      "job": "Evangelist"
+    },
+    {
+      "img": "img/team/02.jpg",
+      "name": "Jordan Walke",
+      "job": "Creator"
+    },
+    {
+      "img": "img/team/03.jpg",
+      "name": "Rachel Nabors",
+      "job": "Docs"
+    },
+    {
+      "img": "img/team/04.jpg",
+      "name": "Sophie Alpert",
+      "job": "Engineer"
+    }
+  ],
+  "Contact": {
+    "address": "1 Hacker Way, Menlo Park, CA 94025 ",
+    "phone": "650-543-4800",
+    "email": "support@fb.com",
+    "facebook": "fb.com",
+    "twitter": "twitter.com",
+    "youtube": "youtube.com"
+  },
+  "Features": [
+    {
+      "icon": "fa fa-comments-o",
+      "title": "Declarative",
+      "text": "React's declarative approach simplifies UI development by specifying how the UI should look."
+    },
+    {
+      "icon": "fa fa-bullhorn",
+      "title": "Component-Based",
+      "text": "React endorses the creation of reuseable components, which can be composed into complex UIs."
+    },
+    {
+      "icon": "fa fa-group",
+      "title": "Virtual DOM",
+      "text": "React uses a virtual DOM to efficiently update only the parts of your page that have changed."
+    },
+    {
+      "icon": "fa fa-magic",
+      "title": "Ecosystem",
+      "text": "React has an enormous and vibrant ecosystem, possibly the largest one in all of open source."
+    }
+  ]
+}
