@@ -104,7 +104,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #6f4e37 0%, #d7b8a5 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: linear-gradient(to right, #6f4e37 0%, #d7b8a5 100%) !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -149,15 +149,16 @@ hr {
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
+
 .section-title h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(135deg, #3b7d1b, #4caf32, #6bcf50, #2e5e15);
   height: 4px;
-  width: 60px;
+  width: 100%;
   bottom: 0;
-  margin-left: -30px;
   left: 50%;
+  transform: translateX(-50%);
 }
 .section-title p {
   font-size: 18px;
@@ -166,8 +167,7 @@ hr {
   font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
-  background-color: #5ca9fb;
-  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(135deg, #3b7d1b, #4caf32, #6bcf50, #2e5e15);
   padding: 14px 34px;
   letter-spacing: 1px;
   margin: 0;
@@ -183,8 +183,7 @@ hr {
 .btn-custom:active,
 .btn-custom.active {
   color: #fff;
-  background-image: none;
-  background-color: #6372ff;
+  background: linear-gradient(150deg, #3b7d1b, #4caf32, #2e5e15);
 }
 .btn:active,
 .btn.active {
@@ -208,7 +207,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/coffee_main.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -276,7 +275,8 @@ header .intro-text {
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  background: linear-gradient(135deg, #3b7d1b, #4caf32, #6bcf50, #2e5e15);
+
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -291,7 +291,7 @@ header .intro-text {
 #about .about-text li:before {
   content: "\f00c";
   font-family: "FontAwesome";
-  color: #5ca9fb;
+  color: #469e2a;
   font-size: 11px;
   font-weight: 300;
   padding-right: 8px;
@@ -310,7 +310,7 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(135deg, #2a1a13, #4e3226, #6f4e37, #1a0e08);
   color: #fff;
 }
 #services .service-desc {
@@ -322,7 +322,7 @@ header .intro-text {
 #services .section-title h2::after {
   position: absolute;
   content: "";
-  background: rgba(255, 255, 255, 0.3);
+  background: linear-gradient(135deg, #3b7d1b, #4caf32, #6bcf50, #2e5e15);
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -460,7 +460,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(90deg, #3b241a 0%, #6f4e37 50%, #2a1a13 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -598,9 +598,84 @@ label {
 #footer a:hover {
   border-bottom: 2px solid #608dfd;
 }
+.navbar-toggle {
+  display: block;
+}
+.navbar-header{
+  display: none;
+}
+
+.service-image {
+  border-radius: 12px;
+  box-shadow:
+          0 4px 6px rgba(0, 0, 0, 0.1),     /* легка тінь внизу */
+          0 1px 3px rgba(0, 0, 0, 0.08);    /* мʼякий обʼєм */
+  border: 2px solid #6f4e37;          /* твій базовий колір */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-image:hover {
+  transform: scale(1.03);
+  box-shadow:
+          0 8px 16px rgba(0, 0, 0, 0.2),
+          0 4px 8px rgba(0, 0, 0, 0.15);
+}
+.accordion-li{
+  margin: 5px 0;
+}
+.accordion-link{
+  color: #6F4E37;
+  font-family: "'Courier New', Courier, monospace";
+  font-weight: bold;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #F3E5AB;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+.accordion-list{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
 @media (max-width: 768px) {
+  #menu {
+    font-size: 14px;
+  }
+  .navbar-header .navbar-brand {
+    font-size: 16px;
+  }
+  .navbar-nav > li > a {
+    padding: 10px 15px;
+  }
   #about img {
     margin: 50px 0;
+  }
+  .navbar-header{
+    width: auto;
+  }
+}
+@media (min-width: 769px) {
+  #menu {
+    font-size: 16px;
+  }
+  .navbar-header .navbar-brand {
+    font-size: 20px;
+  }
+  .navbar-nav > li > a {
+    padding: 15px 20px;
+  }
+}
+@media (max-width: 1350px) {
+  .navbar-nav {
+    display: none;
+  }
+  /*.navbar-toggle{*/
+  /*  display: block;*/
+  /*}*/
+  .navbar-header{
+    display: block;
+    width: auto;
   }
 }

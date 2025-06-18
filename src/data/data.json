@@ -1,21 +1,21 @@
 {
   "Header": {
     "title": "Coffee Lover",
-    "paragraph": "Want to learn React? We've got you. Here are resources you can use."
+    "paragraph": "Кава — це не напій, це обійми в чашці."
   },
   "About": {
-    "paragraph": "React was created in 2013 by Meta (formerly Facebook). It's a library that people use to build interaces and add interactive functionality to a website using JavaScript. It's used by many famous companies and has become the default front end standard. If you don't know how to use it, now's a great time to learn.",
+    "paragraph": "Кава — це другий за популярністю товар у світі після нафти. Щодня у світі випивають понад два мільярди чашок кави, а найбільшими споживачами є скандинави — наприклад, у Фінляндії середній мешканець щороку випиває понад 12 кг кавових зерен.",
     "Why": [
-      "Wide Adoption",
-      "Great Tooling",
-      "Huge Community",
-      "Many Integrations"
+      "Стимулює енергію",
+      "Аромат, що зачаровує",
+      "Ритуал і звичка",
+      "Соціальний магніт"
     ],
     "Why2": [
-      "Virtual DOM",
-      "1-Way Data Flow",
-      "Hooks",
-      "Continuously Improved"
+      "Розмаїття смаків",
+      "Спосіб приготування має значення",
+      "Культура та історія",
+      "Миттєва насолода"
     ]
   },
   "Gallery": [
@@ -67,37 +67,37 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "React.dev",
-      "text": "The sleek new docs can be seen at React.dev, our top recommendation."
+      "src": "/img/services/beans.jpg",
+      "name": "1. Обери якісні зерна",
+      "text": "Свіжеобсмажені зерна середнього обсмаження ідеально підходять для фільтру — розкривають фруктові та квіткові ноти."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Legacy Docs",
-      "text": "The legacy react docs are at legacy.react.org. Warning: they aren't updated."
+      "src": "/img/services/measure.jpg",
+      "name": "2. Точне співвідношення",
+      "text": "Оптимальна пропорція — 1:15–1:17 (наприклад, 20 г кави на 300 мл води). Використовуй вагу для точності."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "FreeCodeCamp",
-      "text": "FreeCodeCamp, at freecodecamp.org, is a nonprofit with a number of good React tutorials."
+      "src": "/img/services/water.jpg",
+      "name": "3. Зволож фільтр",
+      "text": "Перед заварюванням промий паперовий фільтр гарячою водою, щоб прибрати паперовий присмак і підігріти посуд."
     },
     {
-      "icon": "fa fa-language",
-      "name": "JavaScriptPage",
-      "text": "JavaScriptPage.com has a number of quality tutorials about React."
+      "src": "/img/services/temperature.jpg",
+      "name": "4. Температура води",
+      "text": "Гаряча, але не кипляча вода (близько 92–96 °C) — ідеальна для екстракції смаку без гіркоти."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "w3schools.com",
-      "text": "W3Schools has some great React learning materials."
+      "src": "/img/services/process.jpg",
+      "name": "5. Заливання поетапно",
+      "text": "Спершу зроби \"блумінг\" — залий удвічі більше води, ніж ваги кави, і зачекай 30–45 сек. Потім повільно доливай воду круговими рухами."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Mozilla Developer",
-      "text": "Developer.mozilla.org is a gold standard for dev content, and has a React guide."
+      "src": "/img/services/time.png",
+      "name": "6. Час заварювання",
+      "text": "Увесь процес має тривати близько 2,5–3,5 хвилини — це забезпечить збалансовану чашку без недоекстракції або перенасичення."
     }
   ],
-  "Testimonials": [
+  "Comments": [
     {
       "img": "img/testimonials/04.jpg",
       "text": "\"React lets you build user interfaces out of individual pieces called components.\"",
@@ -161,24 +161,24 @@
   },
   "Features": [
     {
-      "icon": "fa fa-comments-o",
-      "title": "Declarative",
-      "text": "React's declarative approach simplifies UI development by specifying how the UI should look."
+      "src": "/img/features/espresso.jpg",
+      "title": "Еспресо",
+      "text": "Готується під високим тиском у спеціальній машині. Виходить насичений, концентрований напій із кремовою пінкою — основа для багатьох кавових напоїв (лате, капучино)."
     },
     {
-      "icon": "fa fa-bullhorn",
-      "title": "Component-Based",
-      "text": "React endorses the creation of reuseable components, which can be composed into complex UIs."
+      "src": "/img/features/french-press.jpg",
+      "title": "Френч-прес",
+      "text": "Грубо мелену каву заливають гарячою водою й настоюють кілька хвилин, після чого тиском поршня відділяють гущу. Дає м’який, округлий смак."
     },
     {
-      "icon": "fa fa-group",
-      "title": "Virtual DOM",
-      "text": "React uses a virtual DOM to efficiently update only the parts of your page that have changed."
+      "src": "/img/features/v60.png",
+      "title": "Пуровер (V60)",
+      "text": "Ручний метод фільтрації: вода повільно проходить крізь каву в паперовому фільтрі. Дозволяє точно контролювати процес і отримати чистий, яскравий смак."
     },
     {
-      "icon": "fa fa-magic",
-      "title": "Ecosystem",
-      "text": "React has an enormous and vibrant ecosystem, possibly the largest one in all of open source."
+      "src": "/img/features/turka.jpg",
+      "title": "Турка (джезва)",
+      "text": "Традиційний спосіб зі Сходу: дрібно мелену каву варять на повільному вогні в мідному або керамічному посуді. Напій виходить густим і насиченим з осадом."
     }
   ]
 }

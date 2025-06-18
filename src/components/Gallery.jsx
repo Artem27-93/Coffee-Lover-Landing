@@ -1,14 +1,14 @@
-import { Image } from "./image";
+import { Image } from "./Image";
 import React from "react";
 
 export const Gallery = (props) => {
   return (
     <div id="portfolio" className="text-center">
-      <div className="container">
+      <div className="container" style={{width:"80%"}}>
         <div className="section-title">
-          <h2>Images</h2>
+          <h2>Колекція смаків</h2>
           <p>
-            The apps shown in the images below can be reproduced with React or React Native, for mobile and desktop.
+            Тут зібрані різні смаки кави "спешлті" - лише відбірна арабіка для поціновувачів
           </p>
         </div>
         <div className="row">

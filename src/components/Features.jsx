@@ -4,15 +4,15 @@ export const Features = (props) => {
   return (
     <div id="features" className="text-center">
       <div className="container">
-        <div className="col-md-10 col-md-offset-1 section-title">
-          <h2>Features</h2>
+        <div className="col-md-10 col-md-offset-1 section-title" style={{paddingTop:'100px'}}>
+          <h2>Які способи заварювання кави існують?</h2>
         </div>
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
+                <div key={`${d.title}-${i}`} className="col-xs-12 col-sm-12 col-md-3">
                   {" "}
-                  <i className={d.icon}></i>
+                  <img src={d.src} width={100} style={{borderRadius: "50%"}} alt="NO IMAGE :("/>
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
                 </div>

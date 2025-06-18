@@ -3,11 +3,11 @@ import React from "react";
 export const Services = (props) => {
   return (
     <div id="services" className="text-center">
-      <div className="container">
+      <div className="container" style={{width:"80%"}}>
         <div className="section-title">
-          <h2>How To Learn</h2>
+          <h2>Фільтр-кава</h2>
           <p>
-            You can use these resources to learn React.
+            — це тиха розмова смаку, де кожна крапля має значення.
           </p>
         </div>
         <div className="row">
@@ -15,7 +15,7 @@ export const Services = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
                   {" "}
-                  <i className={d.icon}></i>
+                  <img className="service-image" src={d.src} height={250} style={{borderRadius:"5px"}} alt="NO IMAGE :("/>
                   <div className="service-desc">
                     <h3>{d.name}</h3>
                     <p>{d.text}</p>
