@@ -12,7 +12,7 @@ export const Features = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.title}-${i}`} className="col-xs-12 col-sm-12 col-md-3">
                   {" "}
-                  <img src={d.src} width={100} style={{borderRadius: "50%"}} alt="NO IMAGE :("/>
+                  <img src={d.src} width={100} style={{borderRadius: "50%"}} alt="Empty :("/>
                   <h3>{d.title}</h3>
                   <p>{d.text}</p>
                 </div>

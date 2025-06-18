@@ -5,8 +5,6 @@ import { Features } from "./components/Features";
 import { About } from "./components/About";
 import { Services } from "./components/Services";
 import { Gallery } from "./components/Gallery";
-import { Comments } from "./components/Comments";
-import { Team } from "./components/Team";
 import { Contact } from "./components/Contact";
 import { CoffeeScrollUI } from "./components/CoffeeScrollUI";
 import JsonData from "./data/data.json";
@@ -40,8 +38,6 @@ const App = () => {
             <About data={landingPageData.About || {}} />
             <Services data={landingPageData.Services || []} />
             <Gallery data={landingPageData.Gallery || []} />
-            {/*<Comments data={landingPageData.Comments || []} />*/}
-            {/*<Team data={landingPageData.Team || []} />*/}
             <Contact data={landingPageData.Contact || {}} />
         </div>
     );
