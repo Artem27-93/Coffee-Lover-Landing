@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Artem27-93/Coffee-Lover-Landing/static/css/main.7cbd2702.css",
+    "main.js": "/Artem27-93/Coffee-Lover-Landing/static/js/main.fd4b934f.js",
+    "index.html": "/Artem27-93/Coffee-Lover-Landing/index.html",
+    "main.7cbd2702.css.map": "/Artem27-93/Coffee-Lover-Landing/static/css/main.7cbd2702.css.map",
+    "main.fd4b934f.js.map": "/Artem27-93/Coffee-Lover-Landing/static/js/main.fd4b934f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7cbd2702.css",
+    "static/js/main.fd4b934f.js"
+  ]
+}
