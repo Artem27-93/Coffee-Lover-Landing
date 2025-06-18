@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Coffee-Lover-Landing/static/css/main.7cbd2702.css",
-    "main.js": "/Coffee-Lover-Landing/static/js/main.136b362b.js",
-    "index.html": "/Coffee-Lover-Landing/index.html",
-    "main.7cbd2702.css.map": "/Coffee-Lover-Landing/static/css/main.7cbd2702.css.map",
-    "main.136b362b.js.map": "/Coffee-Lover-Landing/static/js/main.136b362b.js.map"
+    "main.css": "/static/css/main.7cbd2702.css",
+    "main.js": "/static/js/main.135c0345.js",
+    "index.html": "/index.html",
+    "main.7cbd2702.css.map": "/static/css/main.7cbd2702.css.map",
+    "main.135c0345.js.map": "/static/js/main.135c0345.js.map"
   },
   "entrypoints": [
     "static/css/main.7cbd2702.css",
-    "static/js/main.136b362b.js"
+    "static/js/main.135c0345.js"
   ]
 }
