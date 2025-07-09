@@ -31,9 +31,7 @@ export const Navigation = (props) => {
               </a>{" "}
             </div>
           <div
-              className={`collapse navbar-collapse ${
-                  isAccordionOpen ? "in" : ""
-              }`}
+              className={`collapse navbar-collapse`}
               id="bs-example-navbar-collapse-1"
           >
             <ul className="nav navbar-nav">
@@ -57,16 +55,6 @@ export const Navigation = (props) => {
                   Колекція смаків
                 </a>
               </li>
-              {/*<li>*/}
-              {/*  <a href="#testimonials" className="page-scroll">*/}
-              {/*    Корисні поради*/}
-              {/*  </a>*/}
-              {/*</li>*/}
-              {/*<li>*/}
-              {/*  <a href="#team" className="page-scroll">*/}
-              {/*    Мій ритуал*/}
-              {/*  </a>*/}
-              {/*</li>*/}
               <li>
                 <a href="#contact" className="page-scroll">
                   Контакти
@@ -83,14 +71,6 @@ export const Navigation = (props) => {
                         href="#features"
                         className="page-scroll accordion-link"
                         onClick={handleAccordionToggle}
-                        onMouseOver={(e) => {
-                          e.target.style.backgroundColor = "#D2691E";
-                          e.target.style.color = "#FFF";
-                        }}
-                        onMouseOut={(e) => {
-                          e.target.style.backgroundColor = "#F3E5AB";
-                          e.target.style.color = "#6F4E37";
-                        }}
                     >
                       Трішки теорії
                     </a>
@@ -100,14 +80,6 @@ export const Navigation = (props) => {
                         href="#about"
                         className="page-scroll accordion-link"
                         onClick={handleAccordionToggle}
-                        onMouseOver={(e) => {
-                          e.target.style.backgroundColor = "#D2691E";
-                          e.target.style.color = "#FFF";
-                        }}
-                        onMouseOut={(e) => {
-                          e.target.style.backgroundColor = "#F3E5AB";
-                          e.target.style.color = "#6F4E37";
-                        }}
                     >
                       Про каву
                     </a>
@@ -117,14 +89,6 @@ export const Navigation = (props) => {
                         href="#services"
                         className="page-scroll accordion-link"
                         onClick={handleAccordionToggle}
-                        onMouseOver={(e) => {
-                          e.target.style.backgroundColor = "#D2691E";
-                          e.target.style.color = "#FFF";
-                        }}
-                        onMouseOut={(e) => {
-                          e.target.style.backgroundColor = "#F3E5AB";
-                          e.target.style.color = "#6F4E37";
-                        }}
                     >
                       Фільтр-кава
                     </a>
@@ -134,41 +98,15 @@ export const Navigation = (props) => {
                         href="#portfolio"
                         className="page-scroll accordion-link"
                         onClick={handleAccordionToggle}
-                        onMouseOver={(e) => {
-                          e.target.style.backgroundColor = "#D2691E";
-                          e.target.style.color = "#FFF";
-                        }}
-                        onMouseOut={(e) => {
-                          e.target.style.backgroundColor = "#F3E5AB";
-                          e.target.style.color = "#6F4E37";
-                        }}
                     >
                       Колекція смаків
                     </a>
                   </li>
-                  {/*<li>*/}
-                  {/*  <a href="#testimonials" className="page-scroll" onClick={handleAccordionToggle}>*/}
-                  {/*    Корисні поради*/}
-                  {/*  </a>*/}
-                  {/*</li>*/}
-                  {/*<li>*/}
-                  {/*  <a href="#team" className="page-scroll" onClick={handleAccordionToggle}>*/}
-                  {/*    Мій ритуал*/}
-                  {/*  </a>*/}
-                  {/*</li>*/}
                   <li className="accordion-li">
                     <a
                         href="#contact"
                         className="page-scroll accordion-link"
                         onClick={handleAccordionToggle}
-                        onMouseOver={(e) => {
-                          e.target.style.backgroundColor = "#D2691E";
-                          e.target.style.color = "#FFF";
-                        }}
-                        onMouseOut={(e) => {
-                          e.target.style.backgroundColor = "#F3E5AB";
-                          e.target.style.color = "#6F4E37";
-                        }}
                     >
                       Контакти
                     </a>
