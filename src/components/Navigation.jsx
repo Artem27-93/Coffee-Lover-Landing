@@ -10,7 +10,7 @@ export const Navigation = (props) => {
   return (
       <nav id="menu" className="navbar navbar-default navbar-fixed-top">
         <div className="container">
-          <div style={{display:"flex",justifyContent:"left"}}>
+          <div style={{display:"flex",justifyContent:"left",alignItems:"center"}}>
             <div className="navbar-header">
               <button
                   type="button"
@@ -19,9 +19,11 @@ export const Navigation = (props) => {
               >
                 {" "}
                 <span className="sr-only">Toggle navigation</span>{" "}
-                <span className="icon-bar"></span>{" "}
-                <span className="icon-bar"></span>{" "}
-                <span className="icon-bar"></span>{" "}
+                <div className={!isAccordionOpen ? 'icon-bar-container-horizontal' : 'icon-bar-container-vertical'}>
+                  <span className={!isAccordionOpen ? 'icon-bar-horizontal' : 'icon-bar-vertical'}></span>
+                  <span className={!isAccordionOpen ? 'icon-bar-horizontal' : 'icon-bar-vertical'}></span>
+                  <span className={!isAccordionOpen ? 'icon-bar-horizontal' : 'icon-bar-vertical'}></span>
+                </div>
               </button>
             </div>
 

@@ -4,7 +4,7 @@ import { Header } from "./components/Header";
 import { Features } from "./components/Features";
 import { About } from "./components/About";
 import { Services } from "./components/Services";
-import { Gallery } from "./components/Gallery";
+import { Gallery } from "./components/Gallery/Gallery";
 import { Contact } from "./components/Contact";
 import { CoffeeScrollUI } from "./components/CoffeeScrollUI";
 import JsonData from "./data/data.json";

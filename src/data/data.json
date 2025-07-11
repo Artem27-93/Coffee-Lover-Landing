@@ -20,49 +20,19 @@
   },
   "Gallery": [
     {
-      "title": "Mac App",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Mad Heads El SALVADOR (86 балів)",
+      "largeImage": "img/portfolio/1.jpeg",
+      "smallImage": "img/portfolio/1-small.png"
     },
     {
-      "title": "Instagram App",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Mad Heads COLOMBIA (90.5 балів)",
+      "largeImage": "img/portfolio/2.jpeg",
+      "smallImage": "img/portfolio/2-small.png"
     },
     {
-      "title": "Android App",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Portfolio App",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Tablet App",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Mobile App",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "React Native App",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Browser App",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Web App",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "Фунт Кави (без кофеїну)",
+      "largeImage": "img/portfolio/3.jpeg",
+      "smallImage": "img/portfolio/3-small.png"
     }
   ],
   "Services": [
@@ -95,60 +65,6 @@
       "src": "img/services/time.png",
       "name": "6. Час заварювання",
       "text": "Увесь процес має тривати близько 2,5–3,5 хвилини — це забезпечить збалансовану чашку без недоекстракції або перенасичення."
-    }
-  ],
-  "Comments": [
-    {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"React lets you build user interfaces out of individual pieces called components.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"React components receive data and return what should appear on the screen.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"React components are JavaScript functions. Learning React is learning programming.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"If you're interested in playing around with React, you can use an online code playground, such as CodePen.\"",
-      "name": "Johnathan Doe"
-    },
-    {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"You can use as little or as much React as you need.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"You can add React to an HTML page in one minute, just to experiment.\"",
-      "name": "John Doe"
-    }
-  ],
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "Dan Abramov",
-      "job": "Evangelist"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Jordan Walke",
-      "job": "Creator"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Rachel Nabors",
-      "job": "Docs"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Sophie Alpert",
-      "job": "Engineer"
     }
   ],
   "Contact": {

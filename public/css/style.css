@@ -132,13 +132,48 @@ hr {
 .navbar-toggle {
   border-radius: 0;
 }
+
+/* ГОРИЗОНТАЛЬНИЙ (бургер) */
+.icon-bar-container-horizontal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-bar-horizontal {
+  width: 22px;
+  height: 2px;
+  background-color: #333;
+  margin: 4px 0;
+  /*transition: all 0.1s ease;*/
+}
+
+/* ВЕРТИКАЛЬНИЙ (ряд смужок) */
+.icon-bar-container-vertical {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon-bar-vertical {
+  width: 2px;
+  height: 22px;
+  background-color: #333;
+  margin: 0 4px;
+  /*transition: all 0.1s ease;*/
+}
+
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;
-  border-color: #608dfd;
+  border-color: #6f4e37;
 }
-.navbar-default .navbar-toggle:hover > .icon-bar {
-  background-color: #608dfd;
+.navbar-default .navbar-toggle:hover > .icon-bar-horizontal {
+  background-color: #6f4e37;
+}
+.navbar-default .navbar-toggle:hover > .icon-bar-vertical {
+  background-color: #6f4e37;
 }
 .section-title {
   margin-bottom: 70px;
@@ -459,7 +494,7 @@ header .intro-text {
 }
 /* Contact Section */
 #contact {
-  padding: 100px 0 60px;
+  padding: 50px;
   background: linear-gradient(90deg, #3b241a 0%, #6f4e37 50%, #2a1a13 100%);
   color: rgba(255, 255, 255, 0.75);
 }
@@ -600,6 +635,8 @@ label {
 }
 .navbar-toggle {
   display: block;
+  width: 50px;
+  height: 50px;
 }
 .navbar-header{
   display: none;
@@ -620,7 +657,9 @@ label {
           0 8px 16px rgba(0, 0, 0, 0.2),
           0 4px 8px rgba(0, 0, 0, 0.15);
 }
-
+.accordion-li{
+  height: 20px;
+}
 .accordion-link{
   font-family: "Lato", sans-serif;
   text-transform: uppercase;
@@ -631,6 +670,24 @@ label {
   border-radius: 0;
   margin: 9px 20px 0;
 }
+.accordion-link:after{
+  display: block;
+  position: relative;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #6f4e37 0%, #d7b8a5 100%);
+  content: "";
+  transition: width 0.2s;
+}
+.accordion-link:hover{
+  color: #777;
+}
+.accordion-link:hover:after {
+  width: 100%;
+}
+
 .accordion-list{
   display: flex;
   flex-wrap: wrap;

@@ -4306,13 +4306,22 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-toggle:focus {
   outline: 0;
 }
-.navbar-toggle .icon-bar {
+.navbar-toggle .icon-bar-horizontal {
   display: block;
   width: 22px;
   height: 2px;
   border-radius: 1px;
 }
-.navbar-toggle .icon-bar + .icon-bar {
+.navbar-toggle .icon-bar-vertical {
+  display: block;
+  width: 2px;
+  height: 22px;
+  border-radius: 1px;
+}
+.navbar-toggle .icon-bar-horizontal + .icon-bar-horizontal {
+  margin-top: 4px;
+}
+.navbar-toggle .icon-bar-vertical + .icon-bar-vertical {
   margin-top: 4px;
 }
 @media (min-width: 768px) {
@@ -4534,7 +4543,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-toggle:focus {
   background-color: #ddd;
 }
-.navbar-default .navbar-toggle .icon-bar {
+.navbar-default .navbar-toggle .icon-bar-horizontal {
+  background-color: #888;
+}
+.navbar-default .navbar-toggle .icon-bar-vertical {
   background-color: #888;
 }
 .navbar-default .navbar-collapse,
@@ -4630,7 +4642,10 @@ fieldset[disabled] .navbar-default .btn-link:focus {
 .navbar-inverse .navbar-toggle:focus {
   background-color: #333;
 }
-.navbar-inverse .navbar-toggle .icon-bar {
+.navbar-inverse .navbar-toggle .icon-bar-horizontal {
+  background-color: #fff;
+}
+.navbar-inverse .navbar-toggle .icon-bar-vertical {
   background-color: #fff;
 }
 .navbar-inverse .navbar-collapse,

@@ -1,3 +1,27 @@
+.footer-3d {
+  background: linear-gradient(90deg, #3b241a 0%, #6f4e37 50%, #2a1a13 100%);
+  color: #F5F0E1;
+  box-shadow: inset 0 5px 15px rgba(255, 255, 255, 0.08), /* верхнє світло */
+  0 8px 20px rgba(0, 0, 0, 0.5); /* зовнішня тінь */
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.6); /* глибина тексту */
+}
+
+.text-cream {
+  color: #F5F0E1; /* світло-кремовий */
+}
+
+.instagram-icon {
+  filter: invert(92%) sepia(10%) saturate(300%) hue-rotate(10deg);
+  transition: filter 0.3s ease;
+}
+
+.instagram-icon:hover {
+  filter: invert(65%) sepia(33%) saturate(600%) hue-rotate(330deg); /* карамельний відтінок */
+}
+
+
+
 @media screen and (max-width: 400px) {
   #features {
     padding: 20px;
